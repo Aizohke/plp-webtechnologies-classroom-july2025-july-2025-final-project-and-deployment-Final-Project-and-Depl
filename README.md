@@ -1,90 +1,113 @@
-# 📦 Final Assignment: Build, Organize, and Deploy a Multipage Website
+🌐 Professional Portfolio Website
 
-You're now ready to bring everything together—HTML, CSS, JavaScript, planning, structure, and deployment. This final project challenges you to **conceptualize, build, and deploy a multi-page website** that is responsive, interactive, and ready for the real world.
+A modern, responsive portfolio website built with HTML, CSS, and JavaScript featuring light/dark mode toggle and multi-page navigation. Designed to showcase both mechanical engineering and tech/AI expertise.
 
-This assignment will guide you from planning your site all the way to deploying it online. Let’s make your project *production-worthy*! 🚀
+✨ Features
+
+- 🌗 Dark/Light Mode Toggle - Switch between themes with persistent user preference
+- 📱 Fully Responsive Design - Optimized for desktop, tablet, and mobile devices
+- ⚡ Smooth Animations - Elegant transitions and hover effects
+- 🧭 Multi-Page Navigation - Dedicated sections for home, about, projects, and contact
+- 🎯 Professional Design - Clean, modern interface suitable for technical professionals
+- 📧 Functional Contact Form - With basic validation
+
+📂 Project Structure
+
+```
+portfolio/
+│
+├── html/
+    ├── index.html              # Main landing page
+    ├── about.html              # About me section
+    ├── projects.html           # Portfolio projects
+    ├── contact.html            # Contact form
+│
+├── css/
+│   ├── style.css           # Main stylesheet
+│   └── themes.css          # Light/dark theme variables
+│
+├── js/
+│   ├── script.js           # Main JavaScript functionality
+│   ├── theme.js            # Theme switching logic
+│   └── form-validation.js  # Contact form validation
+│
+├── images/
+│   ├── profile.jpg         # Profile photo (replace with your own)
+│   ├── image1.jpg          # Project image 1
+│   ├── image2.jpg          # Project image 2
+│   ├── image3.jpg          # Project image 3
+│   └── image4.jpg          # Project image 3
+│
+└── README.md               # Project documentation
+```
+
+🚀 Getting Started
+
+  Prerequisites
+
+No special requirements needed. Just a modern web browser.
+
+ Installation
+
+1. Clone or download the repository
+   ```bash
+   git clone https://github.com/your-username/portfolio.git
+   ```
+
+2. Navigate to the project folder
+   ```bash
+   cd portfolio
+   ```
+
+3. Open `index.html` in your browser
+   - Double-click the file, or
+   - Use a local server for best performance:
+     ```bash
+     # Using Python
+     python -m http.server 8000
+     
+     # Using Node.js (if you have http-server installed)
+     http-server
+     ```
+
+🎨 Customization Guide
+
+ Personal Information
+1. Replace placeholder text in HTML files with your information
+2. Update the profile image:
+   - Add your photo to the `images/` folder
+   - Name it `profile.jpg` or update the path in HTML files
+
+ Projects Showcase
+1. Add your project images to the `images/` folder
+2. Name them sequentially (image1.jpg, image2.jpg, etc.)
+3. Update project details in `projects.html`
+
+ Styling
+- Modify color scheme in `css/themes.css`
+- Adjust layout and typography in `css/style.css`
+
+ Contact Information
+Update contact details and social media links in `contact.html`
+
+ 🛠️ Technologies Used
+
+- HTML5 - Semantic markup and structure
+- CSS3 - Flexbox, Grid, animations, and variables
+- JavaScript (ES6) - DOM manipulation and interactive features
+- Font Awesome - Icons
+- Google Fonts - Typography (via CDN)
+
+ 📧 Contact
+
+Feel free to reach out for collaboration or questions through the contact form on the website.
+
+ 📜 License
+
+This project is open source and available under the [MIT License](LICENSE)
+
+ 🔗 Live Demo
+
+[View Live Portfolio]  (https://your-username.github.io/portfolio/) 
 
 ---
-
-## 🌐🎯 Part 1: Planning and Organizing a Multipage Website
-
-Before you write any code, take time to plan:
-
-* Define your website's purpose (portfolio, product showcase, blog, etc.)
-* Outline 3–5 pages (e.g., Home, About, Services, Contact, Gallery)
-* Sketch or describe the layout of each page
-* Map out internal navigation (how pages link to one another)
-
-**Goal:** Show intentional structure and user journey across the site.
-
----
-
-## 🌍💻 Part 2: Build the Website Using HTML5, CSS, and JavaScript
-
-Using your plan, begin building:
-
-* Use HTML5 for semantic structure
-* Apply CSS for responsive layout, styling, and animations
-* Use JavaScript to add interactivity (menus, forms, toggles, dynamic content)
-
-Each page should:
-
-* Be mobile-responsive
-* Share a consistent layout/header/footer
-* Include at least one interactive element (e.g., form validation, toggle menu, animation on scroll)
-
-**Goal:** Integrate everything you’ve learned in a cohesive, functioning project.
-
----
-
-## 🛠️🚀 Part 3: Best Practices for Code Organization
-
-Before deployment, refactor your project to follow production-friendly practices:
-
-* Organize files in folders (`/css`, `/js`, `/images`, etc.)
-* Write clean, modular, and commented code
-* Use meaningful file names and relative paths
-* Validate your HTML/CSS and test on different screen sizes
-
-**Goal:** Prepare your codebase to be readable, maintainable, and scalable.
-
----
-
-## 🌐🚀 Part 4: Introduction to Hosting and Deployment
-
-Once your project is complete, choose a method to **host your site online**.
-
-You can use:
-
-* **GitHub Pages** (great for portfolios and static sites)
-* **Netlify** (powerful CI/CD features and easy form support)
-* **Vercel** (lightning-fast deployment for frontend projects)
-
-Deploy your project and confirm that:
-
-* All links and scripts work
-* It loads properly on mobile and desktop
-* It has a clear, shareable URL
-
-**Goal:** Publish your work online and make it accessible to the world.
-
----
-
-## Deliverables
-
-1. A GitHub repository containing:
-
-   * Your complete project code, properly organized
-   * A `README.md` file explaining your project purpose, structure, and live URL
-2. A live deployed website (hosted via GitHub Pages, Netlify, or Vercel)
-
----
-
-## Outcome
-
-* Clarity and thoroughness of planning documentation
-* Proper use of HTML5, CSS, and JavaScript across multiple pages
-* Responsive and accessible design
-* Clean, well-organized, and commented code
-* Successful live deployment with a working link
-* Evidence of following best practices
