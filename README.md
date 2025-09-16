@@ -104,10 +104,11 @@ Feel free to reach out for collaboration or questions through the contact form o
 
  📜 License
 
-This project is open source and available under the [MIT License](LICENSE)
+This project is open source and available under the [MIT License(LICENSE)
 
  🔗 Live Demo
 
-[View Live Portfolio]  (https://your-username.github.io/portfolio/) 
+View Live Portfolio-  (https://mathengeportfolio.netlify.app/)
+link- https://mathengeportfolio.netlify.app/
 
 ---
